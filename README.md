@@ -1,6 +1,6 @@
 # What is it?
 
-The 'Rasa6' is a 6HP Eurorack module built around the Arduino Beetle from DFRobot. The circuit is very simple, but can be used to perform a number of tasks helpful in music synthesis. My intent was to design a standard module that could be easily programmed by anyone in the DIY music scene, even those with limited software or hardware skills. All code is open source, freely available for you to use and modify. If you make a cool module using the 'Rasa6' -- or some cool music -- let me know and I will link it here.
+The 'Rasa6' is a 6HP Eurorack module built around the Arduino Beetle from DFRobot. The circuit is very simple, but can be used to perform a number of tasks helpful in music synthesis. My intent was to design a standard module that could be easily programmed by anyone in the DIY music scene, even those with limited software or hardware skills. All code is open source, freely available for you to use and modify. If you make a cool module using the 'Rasa6' module -- or some cool music -- let me know and I will link it here.
 
 # About the 'Rasa6'
 
