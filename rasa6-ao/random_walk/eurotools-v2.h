@@ -17,7 +17,7 @@ float read_analog_mV(int pin_in, int r1 = 0, int r2 = 0, bool debug = false){
   if(debug){
     Serial.print ("Current value (read_analog_mV): ");
     Serial.print (mV);
-	Serial.println ("");
+    Serial.println ("");
   }
   
   return(mV);
@@ -41,7 +41,7 @@ int read_analog_mV_smooth(int pin_in, int read_history[8], int r1 = 0, int r2 = 
   if(debug){
     Serial.print ("Current value (read_analog_mV_smooth): ");
     Serial.print (incoming_cv);
-	Serial.println ("");
+    Serial.println ("");
   }
 
   return(incoming_cv);
@@ -55,7 +55,7 @@ bool read_analog_bool(int pin_in, int cutoff_mV = 500, int r1 = 0, int r2 = 0, b
   if(debug){
     Serial.print ("Current value (read_analog_bool): ");
     Serial.print (out);
-	Serial.println ("");
+    Serial.println ("");
   }
   
   return(out);
@@ -72,7 +72,7 @@ int read_analog_pct(int pin_in, int max_mV, bool reverse = false, int r1 = 0, in
   if(debug){
     Serial.print ("Current value (read_analog_pct): ");
     Serial.print (pct);
-	Serial.println ("");
+    Serial.println ("");
   }
   
   return(pct);
