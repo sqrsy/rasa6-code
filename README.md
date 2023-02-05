@@ -53,6 +53,15 @@ The following programs are currently available:
 
 The following programs are currently available:
 
+* Gate Decay:
+	* Author: sqrsy
+	* Purpose: Takes a gate signal and decays it after it finishes.
+	* Jack 1: Gate in.
+	* Pot 1: The maximum output voltage (500-4000 mV).
+	* Pot 2: The time it takes to decay 0.5% (1-100 ms).
+	* Jack 2: The gate and its decay.
+	* Jack 3: The inverse.
+
 * Random Walk:
 	* Author: sqrsy
 	* Purpose: Takes a CV and adds or subtracts a random increment.
