@@ -70,6 +70,15 @@ The following programs are currently available:
 	* Pot 2: The frequency of the random increment (20-320 ms).
 	* Jack 2: CV in plus the random increment.
 	* Jack 3: CV in minus the random increment.
+	
+* Trigger Decay:
+	* Author: sqrsy
+	* Purpose: Takes a trigger signal and decays it immediately.
+	* Jack 1: Trigger in.
+	* Pot 1: The maximum output voltage (500-4000 mV).
+	* Pot 2: The time it takes to decay 0.5% (1-100 ms).
+	* Jack 2: The trigger decay.
+	* Jack 3: The inverse.
 
 # Disclaimer
 
