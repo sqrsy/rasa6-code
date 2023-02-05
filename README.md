@@ -51,7 +51,16 @@ The following programs are currently available:
 
 # AO Programs
 
-Coming soon!
+The following programs are currently available:
+
+* Random Walk:
+	* Author: sqrsy
+	* Purpose: Takes a CV and adds or subtracts a random increment.
+	* Jack 1: CV in.
+	* Pot 1: The size of the random increment (20-320 mV).
+	* Pot 2: The frequency of the random increment (20-320 ms).
+	* Jack 2: CV in plus the random increment.
+	* Jack 3: CV in minus the random increment.
 
 # Disclaimer
 
