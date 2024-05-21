@@ -22,6 +22,15 @@ The following programs are currently available:
 	* Jack 2: Chan A out.
 	* Jack 3: Chan B out.
 
+* Clock Multiplier:
+	* Author: sqrsy
+	* Purpose: Generates polyrhythms by multiplying the clock signal.
+	* Jack 1: Clock in.
+	* Pot 1: The number of multiples for Chan A (1-8).
+	* Pot 2: The number of multiples for Chan B (1-8).
+	* Jack 2: Chan A out.
+	* Jack 3: Chan B out.
+
 * Mini Euclid:
 	* Author: sqrsy
 	* Purpose: Generates simple Euclidean rhythms.
@@ -30,15 +39,6 @@ The following programs are currently available:
 	* Pot 2: The length of the rhythm necklace (1-8).
 	* Jack 2: The beats of the Euclidean rhythm.
 	* Jack 3: The rests of the Euclidean rhythm.
-
-* Poly Rhythm:
-	* Author: sqrsy
-	* Purpose: Generates polyrhythms by sub-dividing the clock signal.
-	* Jack 1: Clock in.
-	* Pot 1: The number of sub-divisions for Chan A (1-8).
-	* Pot 2: The number of sub-divisions for Chan B (1-8).
-	* Jack 2: Chan A out.
-	* Jack 3: Chan B out.
 
 * Rapid Trigger:
 	* Author: sqrsy
@@ -71,7 +71,16 @@ The following programs are currently available:
 	* Jack 2: The AR envelope. Max voltage depends on gate.
 	* Jack 3: A short 4V gate once release finishes.
 
-* Gate Decay:
+* No Attack Decay:
+	* Author: sqrsy
+	* Purpose: Takes a trigger signal and decays it immediately.
+	* Jack 1: Trigger in.
+	* Pot 1: The maximum output voltage (500-4000 mV).
+	* Pot 2: The time it takes to decay 0.5% (1-100 ms).
+	* Jack 2: The trigger decay.
+	* Jack 3: The inverse.
+
+* No Attack Release:
 	* Author: sqrsy
 	* Purpose: Takes a gate signal and decays it after it finishes.
 	* Jack 1: Gate in.
@@ -88,15 +97,6 @@ The following programs are currently available:
 	* Pot 2: The frequency of the random increment (20-320 ms).
 	* Jack 2: CV in plus the random increment.
 	* Jack 3: CV in minus the random increment.
-
-* Trigger Decay:
-	* Author: sqrsy
-	* Purpose: Takes a trigger signal and decays it immediately.
-	* Jack 1: Trigger in.
-	* Pot 1: The maximum output voltage (500-4000 mV).
-	* Pot 2: The time it takes to decay 0.5% (1-100 ms).
-	* Jack 2: The trigger decay.
-	* Jack 3: The inverse.
 
 # Disclaimer
 
