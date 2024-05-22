@@ -22,9 +22,18 @@ The following programs are currently available:
 	* Jack 2: Chan A out.
 	* Jack 3: Chan B out.
 
+* Clock Divider:
+	* Author: sqrsy
+	* Purpose: Generates new clock signals by dividing the incoming clock signal.
+	* Jack 1: Clock in.
+	* Pot 1: The number of divisions for Chan A, including non-integer divisions (f/1-f/8).
+	* Pot 2: The number of divisions for Chan B, including non-integer divisions (f/1-f/8).
+	* Jack 2: Chan A out.
+	* Jack 3: Chan B out.
+
 * Clock Multiplier:
 	* Author: sqrsy
-	* Purpose: Generates polyrhythms by multiplying the clock signal.
+	* Purpose: Generates new clock signals by multiplying the incoming clock signal.
 	* Jack 1: Clock in.
 	* Pot 1: The number of multiples for Chan A (1-8).
 	* Pot 2: The number of multiples for Chan B (1-8).
