@@ -40,7 +40,7 @@ The following programs are currently available:
 	* Jack 2: Chan A out.
 	* Jack 3: Chan B out.
 
-* Mini Euclid:
+* Euclidean Rhythms:
 	* Author: sqrsy
 	* Purpose: Generates simple Euclidean rhythms.
 	* Jack 1: Clock in.
