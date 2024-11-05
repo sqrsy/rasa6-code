@@ -109,4 +109,4 @@ The following programs are currently available:
 
 # Disclaimer
 
-All files are provided without any guarentee. If you notice a mistake, please submit an Issue and I will fix it.
+All files are provided without any guarantee. If you notice a mistake, please submit an Issue and I will fix it.
