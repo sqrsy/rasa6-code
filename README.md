@@ -62,41 +62,14 @@ The following programs are currently available:
 
 The following programs are currently available:
 
-* Attack Decay:
+* Attack Decay Release:
 	* Author: sqrsy
-	* Purpose: Outputs a linear attack-decay (AD) enevelope.
-	* Jack 1: Trigger in.
+	* Purpose: Outputs a linear attack-release (AR) and attack-decay (AD) envelope.
+	* Jack 1: Gate in.
 	* Pot 1: The time it takes to attack (~100 ms to ~10 sec).
 	* Pot 2: The time it takes to decay (~100 ms to ~10 sec).
-	* Jack 2: The AD envelope. Max voltage is 4 volts.
-	* Jack 3: A short 4V gate once decay finishes.
-
-* Attack Release:
-	* Author: sqrsy
-	* Purpose: Outputs a linear attack-release (AR) enevelope.
-	* Jack 1: Gate in. Release begins once gate ends.
-	* Pot 1: The time it takes to attack (~100 ms to ~10 sec).
-	* Pot 2: The time it takes to release (~100 ms to ~10 sec).
-	* Jack 2: The AR envelope. Max voltage depends on gate.
-	* Jack 3: A short 4V gate once release finishes.
-
-* No Attack Decay:
-	* Author: sqrsy
-	* Purpose: Takes a trigger signal and decays it immediately.
-	* Jack 1: Trigger in.
-	* Pot 1: The maximum output voltage (500-4000 mV).
-	* Pot 2: The time it takes to decay 0.5% (1-100 ms).
-	* Jack 2: The trigger decay.
-	* Jack 3: The inverse.
-
-* No Attack Release:
-	* Author: sqrsy
-	* Purpose: Takes a gate signal and decays it after it finishes.
-	* Jack 1: Gate in.
-	* Pot 1: The maximum output voltage (500-4000 mV).
-	* Pot 2: The time it takes to decay 0.5% (1-100 ms).
-	* Jack 2: The gate and its decay.
-	* Jack 3: The inverse.
+	* Jack 2: The AR envelope. Releases after Gate.
+	* Jack 3: The AD envelope. Ignores Gate.
 
 * Random Walk:
 	* Author: sqrsy
